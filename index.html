@@ -120,7 +120,7 @@
                     <label>Enter string</label><br>
                     <input type="text" id="inputBox06a"><br>
                     <label>Enter length</label><br>
-                    <input type="text" id="inputBox06b"><br>
+                    <input type="number" id="inputBox06b"><br>
                     <div id="qnsExp">Slice the string </div>
                     <button id="ansButton" type="submit">Truncate</button>          
                 </form>
@@ -140,7 +140,7 @@
             </div>
 
             <div id="qns08" style="display: none;">
-                <form onsubmit="return inputArray()">
+                <form id="form08" onsubmit="return inputArray(this)">
                     <label>Enter Words </label><br>
                     <input type="text" id="inputBox08">
                     <button id="enterButton" type="submit">Enter</button>
